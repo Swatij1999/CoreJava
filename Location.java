@@ -3,12 +3,13 @@ package com.xworkz.friday.bean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 @Component
-public class Experience {
+public class Location {
+	
 	@Autowired
-	private Skill skill;
-	public Experience() {
-		System.out.println("creat Experience with no arguments constructor ");
+	private Area area;
+	
+	public Location() {
+		System.out.println("creating location with no argument constructor");
 	}
+
 }
-
-

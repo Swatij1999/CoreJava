@@ -2,13 +2,13 @@ package com.xworkz.friday.bean;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+
 @Component
-public class Experience {
+public class Lens {
 	@Autowired
-	private Skill skill;
-	public Experience() {
-		System.out.println("creat Experience with no arguments constructor ");
+	private Battery battery;
+	public Lens() {
+		System.out.println("creating Lens with no argument");
 	}
+
 }
-
-

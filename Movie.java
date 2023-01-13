@@ -3,12 +3,11 @@ package com.xworkz.friday.bean;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 @Component
-public class Experience {
+public class Movie {
 	@Autowired
-	private Skill skill;
-	public Experience() {
-		System.out.println("creat Experience with no arguments constructor ");
+	private Director director;
+	public Movie() {
+		System.out.println("creat Movie with no arguments constructor ");
 	}
+
 }
-
-
