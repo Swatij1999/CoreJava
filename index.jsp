@@ -26,10 +26,42 @@
      src="https://x-workz.in/static/media/Logo.cf195593dc1b3f921369.png"
      alt = ""width = "80" height="48"class="d-line-block align-text-top">
      </a>
-     <a href = "FoodItem.jsp">FoodItem</a>
+     <a href = "index.jsp">Home</a>
    </div>
    </nav>
-   <h1>This is spring with boot strap...</h1>
+   <h1>Welcome to Beach.....</h1>
+   
+   <form action = "sea" method = "post">
+   <div class="mb-3">
+   <label for = "exampleInputEmail" class="form-label">Name</label>
+   <input type="text"class="form-control"name="name"
+   id="exampleInputEmail"placeholder="enter name">
+   </div>
+   
+   
+    <div class="mb-3">
+   <label for = "exampleInputEmail" class="form-label">Location</label>
+   <input type="text"class="form-control"name="location"
+   id="exampleInputEmail"placeholder="enter location">
+   </div>
+   
+    <div class="mb-3">
+   <label for = "exampleInputEmail" class="form-label">Game</label>
+   <input type="text"class="form-control"name="game"
+   id="exampleInputEmail"placeholder="enter fee">
+   </div>
+   
+   <select class = "form-select" aria-lable = "Default select example"name="clear">
+   <option selected>Clean or not </option>
+   <option value = "Yes">True</option>
+   <option value ="No">False</option>
+   </select>
+   </div>
+   
+   <input type="Submit" value = Go to beach"class = "btn btn-dark">
+   </div>
+   
+   </form>
 
 </body>
 </html>
